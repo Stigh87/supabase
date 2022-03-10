@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: gray;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.OutputContaine {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.InputContainer {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+}
+
+button {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  width: 100px;
 }
